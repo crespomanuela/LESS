@@ -1,3 +1,80 @@
+.padding8 {
+  padding: 8px;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+.container {
+  max-width: 960px;
+  width: 100%;
+  margin: 0 auto;
+}
+@media (min-width: 768px) and (max-width: 1023px) {
+  .container {
+    max-width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}
+@media (max-width: 767px) {
+  .container {
+    max-width: 70%;
+  }
+}
+header {
+  padding: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+header .avatar-profile {
+  padding: 32px;
+  display: block;
+  margin: 0 auto 16px auto;
+  border-radius: 50%;
+}
+.profile-bio-name {
+  margin-bottom: 16px;
+  font-size: 24px;
+}
+.profile-bio-subtitle {
+  font-size: 18px;
+}
+.profile-bio-description {
+  margin-top: 16px;
+  font-size: 16px;
+  opacity: 0.6;
+}
 body {
   background-color: #f9f9f9;
+  color: #353b48;
+}
+ul {
+  padding: 32px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  list-style-type: none;
+}
+ul a {
+  text-decoration: none;
+}
+.social-instagram {
+  padding: 8px;
+}
+.social-linkedin {
+  padding: 8px;
+}
+.social-github {
+  padding: 8px;
+}
+.social-email {
+  padding: 8px;
 }
