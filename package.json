@@ -13,5 +13,8 @@
   "devDependencies": {
     "less": "^4.5.1",
     "less-watch-compiler": "^1.17.5"
+  },
+  "dependencies": {
+    "feather-icons": "^4.29.2"
   }
 }
